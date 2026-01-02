@@ -1,0 +1,11 @@
++incdir+uvm
+uvm/axi_txn.sv
+uvm/seq/axi_base_seq.sv
+uvm/driver/axi_driver.sv
+uvm/agent/axi_sequencer.sv
+uvm/agent/axi_agent.sv
+uvm/monitor/axi_monitor.sv
+uvm/scoreboard/axi_scoreboard.sv
+uvm/env/axi_env.sv
+uvm/tests/axi_smoke_test.sv
+uvm/top.sv
