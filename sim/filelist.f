@@ -10,4 +10,5 @@ uvm/monitor/axi_monitor.sv
 uvm/scoreboard/axi_scoreboard.sv
 uvm/env/axi_env.sv
 uvm/tests/axi_smoke_test.sv
+uvm/tests/axi_rand_smoke_test.sv
 uvm/top.sv
