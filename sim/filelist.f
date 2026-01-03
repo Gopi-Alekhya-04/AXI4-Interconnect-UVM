@@ -1,5 +1,6 @@
 +incdir+uvm
 uvm/axi_if.sv
+rtl/axi_slave_stub.sv
 uvm/axi_txn.sv
 uvm/seq/axi_base_seq.sv
 uvm/driver/axi_driver.sv
