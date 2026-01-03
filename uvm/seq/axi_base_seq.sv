@@ -22,6 +22,8 @@ class axi_base_seq extends uvm_sequence #(axi_txn);
     finish_item(tr);
     `uvm_info(get_type_name(), {"Issued WRITE: ", tr.convert2string()}, UVM_MEDIUM)
 
+#50ns;
+
     // READ transaction
     tr = axi_txn::type_id::create("rd_tr");
     start_item(tr);
